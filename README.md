@@ -1,1 +1,1 @@
-# TenantServiceUI
+# TenantUI
