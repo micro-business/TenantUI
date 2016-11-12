@@ -1,6 +1,6 @@
-(defproject microbusinesses-tenantui "0.1.0-SNAPSHOT"
+(defproject micro-business-tenantui "0.1.0-SNAPSHOT"
   :description "Micro Businesses Tenant UI"
-  :url "https://github.com/microbusinesses/TenantUI"
+  :url "https://github.com/micro-business/TenantUI"
   :license {:name "GPL-3.0"
             :url "https://www.gnu.org/licenses/gpl-3.0.en.html"}
 
