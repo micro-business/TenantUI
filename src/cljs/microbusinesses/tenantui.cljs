@@ -12,4 +12,5 @@
 
 (def hello (om/factory HelloWorld))
 
-(js/ReactDOM.render (hello) (gdom/getElement "app"))
+(defn ^:export renderTenantUI [elementName]
+  (js/ReactDOM.render (hello) (gdom/getElement elementName)))
