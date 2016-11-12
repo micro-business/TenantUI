@@ -6,7 +6,6 @@ figwheel_server.log
 /classes/
 /target/
 /checkouts/
-resources/
 .lein-deps-sum
 .lein-repl-history
 .lein-plugins/
