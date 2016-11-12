@@ -1,1 +1,1 @@
-# TenantUI
+# Tenant UI
