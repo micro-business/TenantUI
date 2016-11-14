@@ -1,6 +1,5 @@
 pom.xml
 pom.xml.asc
-figwheel_server.log
 *jar
 /lib/
 /classes/
@@ -11,3 +10,4 @@ figwheel_server.log
 .lein-plugins/
 .lein-failures
 .nrepl-port
+figwheel_server.log

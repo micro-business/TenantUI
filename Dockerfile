@@ -1,4 +1,5 @@
 FROM microbusiness/uihost-service
 MAINTAINER micro.business.limited@gmail.com
-ADD resources/public/prod/js/main.js /www/js/
+ADD resources/public/index.html /www/
+ADD resources/public/js/compiled/tenantui.js /www/js/compiled/
 CMD ["/UIHostService"]

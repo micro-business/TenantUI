@@ -5,12 +5,14 @@
 
 (enable-console-print!)
 
-(defui HelloWorld
+(defui TenantUI
   Object
   (render [this]
           (dom/div nil "Tenant UI")))
 
-(def hello (om/factory HelloWorld))
+(def tenantUI (om/factory TenantUI))
 
 (defn ^:export renderTenantUI [elementName]
-  (js/ReactDOM.render (hello) (gdom/getElement elementName)))
+  (js/ReactDOM.render (tenantUI) (gdom/getElement elementName)))
+
+(renderTenantUI  "tenantUIArea")
